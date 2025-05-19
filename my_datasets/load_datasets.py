@@ -1,4 +1,4 @@
-from datasets import load_dataset
+from my_datasets import load_dataset
 
 def load_imdb():
     return load_dataset("imdb")

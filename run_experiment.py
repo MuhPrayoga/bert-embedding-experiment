@@ -1,6 +1,7 @@
+
 import torch
 from transformers import BertTokenizer, BertModel
-from datasets.load_datasets import load_imdb, load_snli
+from my_datasets.load_datasets import load_imdb, load_snli
 from embeddings.extract_embeddings import extract_embedding
 from models.classifier import SimpleClassifier
 from torch.utils.data import DataLoader
